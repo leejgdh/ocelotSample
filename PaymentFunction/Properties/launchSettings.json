@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "PaymentFunction": {
+      "commandName": "Project"
+    }
+  }
+}
