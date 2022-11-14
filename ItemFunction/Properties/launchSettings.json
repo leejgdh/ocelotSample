@@ -1,7 +1,14 @@
 {
   "profiles": {
     "ItemFunction": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\leejg\\AppData\\Roaming\\npm\\node_modules\\azure-functions-core-tools\\bin\\func.dll host start --port 8888 --pause-on-error"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 33300,
+      "useSSL": false
     }
   }
 }
